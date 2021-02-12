@@ -1,0 +1,97 @@
+#services{
+    background: #F2F2F2;
+  }
+  .services__wrapper{
+    min-height: 494px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 6px solid #FFFFFF;
+    @include media-tablet{
+      padding: 0 3.3rem;
+      border-bottom: 0px ;
+    }
+    
+  }
+  .services__header{
+    display: flex;
+    flex-direction: column;
+   
+  
+  }
+  .services_header_heading{
+   margin: 59px 0 18px 0;
+   font-family: "Lato";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 30px;
+   line-height: 36px;
+   color: #666D89;
+   @include media-laptop {
+    margin: 4.0rem 0 0 0;
+   }
+   @include media-tablet{
+    margin: 2.56rem 0 0 0;
+  }
+
+  }
+  
+  .services_header_text{
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 30px;
+   color: #767E9E;
+   text-align: justify;
+   @include media-laptop{
+     margin-bottom: 2.8rem ;
+   }
+   @include media-tablet{
+    text-align: left;
+    margin-bottom: 2.5rem ;
+  }
+  }
+  .services__info{
+    @include columns ($width: 30%); 
+    @include media-laptop {
+      @include columns ($width: 43.5%); 
+    }
+    @include media-tablet {
+      @include columns ($width: 96.5%);
+    }
+  }
+  .services__inf{
+    display: flex;
+    width: 100%;
+   
+  }
+  .inf_heading{
+    padding: 0 0 0 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666D89;  
+    margin: 0;
+  }
+  .inf_text{
+    
+    margin: 10px 0 10px 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    color: #767E9E;
+    overflow: hidden;
+    @include media-laptop{
+      margin: 10px 0 39px 20px;
+    }
+    @include media-tablet {
+      margin: 7px 0 15px 20px;
+    }
+  }
+  
+  

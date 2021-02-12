@@ -1,0 +1,58 @@
+#home{
+  padding-top: 95px;
+  background-color: $color-home-background;
+}
+
+.home__wrapper{
+  max-width: 102.0rem;
+  position: relative;
+ 
+}
+
+.slider {
+  display: flex;
+  max-width: 1020;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+
+.slider-line {
+  display: flex;
+  left: 0;
+  transition: all ease 1s;
+  transform: none;
+}
+.button-slider{
+  border:none;
+  outline: none; 
+  position: absolute;
+  top:45%;
+ 
+}
+
+.slider-next{
+  left:calc(93%);
+  cursor: pointer;
+  width: 1.6rem;
+  height: 2.7rem;
+  @extend %portfolio-img;    
+  background-image:url(/src/img/arrow-right.png);
+  @include media-tablet {
+  width: 1.408rem;
+  height:2.494rem ;
+}
+
+}
+.slider-prev{
+  left: calc(4%);
+  cursor: pointer;
+  width: 1.6rem;
+  height: 2.7rem;
+  @extend %portfolio-img;    
+  background-image:url(/src/img/arrow-left.png);
+  @include media-tablet {
+  width: 1.408rem;
+  height:2.494rem ;
+}
+}

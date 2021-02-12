@@ -1,0 +1,128 @@
+
+  
+  
+  .header{
+   z-index: 10;
+   margin: 0 auto;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background:$color-header-background;
+  }
+
+  .header__wrapper{ 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 6px solid $color-bordered;
+    
+  } 
+  
+  .header__logo{
+    margin: 0;
+    display: flex;
+    z-index: 5;
+    @include media-tablet{
+      margin: 0 auto;
+    }
+  }
+     
+  .logo{
+    display:flex;   
+    color: $color-light;
+    margin: 3.6rem 0 3.5rem 0x;
+    text-transform: uppercase;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    @include media-tablet{
+     
+     }     
+    }
+   
+    
+  
+  .header_logo_symbol{
+    margin: 2.5rem 0;  
+    color:$color-active;
+    
+  }
+  
+  .header__navigation{
+       
+     
+   @include media-tablet{
+     
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 27.8rem;
+      height: 100%;
+      background-color: #2D303A;
+    }
+       
+  }
+  .header__navigation.active{
+      top: 0; 
+    }
+  .navigation {
+    text-transform: uppercase;  
+    padding: 0;
+    display: flex; 
+    align-items: center;
+    list-style: none;
+    color: $color-light;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-size: 12px;
+    @media (max-width: 767px) {
+      display: block;
+      padding: 232px 0 0 71px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: -0.035em;
+
+
+
+
+
+    };
+    
+    
+  }
+  .navigation__link{
+    
+    
+    @media (max-width: 767px) {
+      margin: 0 0 27px 0;
+     
+    }
+   }   
+  
+  .point{ 
+    padding-bottom: 8px;
+    margin: 0 20px;
+    color:#fff;
+    @include media-tablet{
+      display: none;
+    }
+  }
+  .nav{
+    color: $color-services-background;
+    text-decoration: none;
+  }
+  .active{
+    color: $color-active;
+  }
+ 
+ 

@@ -1,0 +1,10 @@
+
+ 
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 4.0rem;
+    @include media-tablet {
+     padding: 0 1.0rem;
+}
+}
