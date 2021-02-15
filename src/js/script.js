@@ -64,22 +64,7 @@ function rollSlider() {
    sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 
 }
-  //Slider.next = function (box){
- //box.sliderLine.style.transition = 'transform .3s ease-in-out';
- //};
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
  const addActiv = document.querySelector('.button .button__list ');
@@ -88,8 +73,6 @@ addActiv.addEventListener('click', (event) => {
 addActiv.querySelectorAll('.batton_link_a').forEach(a => a.classList.remove('active')); 
 event.target.classList.add('active'); 
 }) 
-
-
 
 
 
@@ -107,30 +90,10 @@ $(document).ready(function(){
 
   });
 });      
-        
       
-      
-     
-     
-        
-     
-   
- 
-   
- 
+$(document).ready(function(){
+  $('.nav').click(function(event){
+    $('.hamburger,.header__navigation').toggleClass('active');
 
-
-
- 
-    //li.appendChild(li.children[Math.random() * i | 0]);
-   
-//}
-
-
-
-
-
-
-
-
- 
+  });
+});      

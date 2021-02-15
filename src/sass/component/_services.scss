@@ -49,20 +49,23 @@
    @include media-tablet{
     text-align: left;
     margin-bottom: 2.5rem ;
+    
   }
   }
   .services__info{
-    @include columns ($width: 30%); 
+    @include columns ($width: 32%); 
     @include media-laptop {
       @include columns ($width: 43.5%); 
     }
     @include media-tablet {
       @include columns ($width: 96.5%);
+      //align-items: center;
     }
   }
   .services__inf{
     display: flex;
     width: 100%;
+    
    
   }
   .inf_heading{
@@ -91,6 +94,8 @@
     }
     @include media-tablet {
       margin: 7px 0 15px 20px;
+      height: 72px;
+      overflow: hidden;  
     }
   }
   
