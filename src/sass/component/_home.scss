@@ -37,7 +37,7 @@
   width: 1.6rem;
   height: 2.7rem;
   @extend %portfolio-img;    
-  background-image:url(/src/img/arrow-right.png);
+  background-image:url('../img/arrow-right.png');
   @include media-tablet {
   width: 1.408rem;
   height:2.494rem ;
@@ -50,7 +50,7 @@
   width: 1.6rem;
   height: 2.7rem;
   @extend %portfolio-img;    
-  background-image:url(/src/img/arrow-left.png);
+  background-image:url('../img/arrow-left.png');
   @include media-tablet {
   width: 1.408rem;
   height:2.494rem ;

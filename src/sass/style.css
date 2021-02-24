@@ -254,7 +254,7 @@ body {
   cursor: pointer;
   width: 1.6rem;
   height: 2.7rem;
-  background-image: url(/src/img/arrow-right.png);
+  background-image: url("../img/arrow-right.png");
 }
 @media (max-width: 767px) {
   .slider-next {
@@ -268,7 +268,7 @@ body {
   cursor: pointer;
   width: 1.6rem;
   height: 2.7rem;
-  background-image: url(/src/img/arrow-left.png);
+  background-image: url("../img/arrow-left.png");
 }
 @media (max-width: 767px) {
   .slider-prev {
@@ -557,51 +557,51 @@ body {
 }
 
 .portfolio-1 {
-  background-image: url(/src/img/portfolio-img/portfolio-1.png);
+  background-image: url("../img/portfolio-img/portfolio-1.png");
 }
 
 .portfolio-2 {
-  background-image: url(/src/img/portfolio-img/portfolio-2.png);
+  background-image: url("../img/portfolio-img/portfolio-2.png");
 }
 
 .portfolio-3 {
-  background-image: url(/src/img/portfolio-img/portfolio-3.png);
+  background-image: url("../img/portfolio-img/portfolio-3.png");
 }
 
 .portfolio-4 {
-  background-image: url(/src/img/portfolio-img/portfolio-4.png);
+  background-image: url("../img/portfolio-img/portfolio-4.png");
 }
 
 .portfolio-5 {
-  background-image: url(/src/img/portfolio-img/portfolio-5.png);
+  background-image: url("../img/portfolio-img/portfolio-5.png");
 }
 
 .portfolio-6 {
-  background-image: url(/src/img/portfolio-img/portfolio-6.png);
+  background-image: url("../img/portfolio-img/portfolio-6.png");
 }
 
 .portfolio-7 {
-  background-image: url(/src/img/portfolio-img/portfolio-7.png);
+  background-image: url("../img/portfolio-img/portfolio-7.png");
 }
 
 .portfolio-8 {
-  background-image: url(/src/img/portfolio-img/portfolio-8.png);
+  background-image: url("../img/portfolio-img/portfolio-8.png");
 }
 
 .portfolio-9 {
-  background-image: url(/src/img/portfolio-img/portfolio-9.png);
+  background-image: url("../img/portfolio-img/portfolio-9.png");
 }
 
 .portfolio-10 {
-  background-image: url(/src/img/portfolio-img/portfolio-10.png);
+  background-image: url("../img/portfolio-img/portfolio-10.png");
 }
 
 .portfolio-11 {
-  background-image: url(/src/img/portfolio-img/portfolio-11.png);
+  background-image: url("../img/portfolio-img/portfolio-11.png");
 }
 
 .portfolio-12 {
-  background-image: url(/src/img/portfolio-img/portfolio-12.png);
+  background-image: url("../img/portfolio-img/portfolio-12.png");
 }
 
 @font-face {
