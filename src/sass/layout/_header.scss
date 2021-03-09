@@ -46,6 +46,19 @@
      }     
     }
    
+    .header_logo_name{
+      position: relative;
+    }
+
+   .header_logo_name::after {
+    content: "*"; 
+    position: absolute;
+    top: 3px;
+    padding-bottom: 8px;
+    color:red;
+    font-size: 19px;
+   }
+    
     
   
   .header_logo_symbol{
@@ -109,7 +122,10 @@
     }
    }   
   
-  .point{ 
+  .point::after {
+    content: "."; 
+    position: absolute;
+    top: -5px;
     padding-bottom: 8px;
     margin: 0 20px;
     color:#fff;
@@ -118,6 +134,8 @@
     }
   }
   .nav{
+    padding-left: 40px;
+    position: relative;
     color: $color-services-background;
     text-decoration: none;
   }

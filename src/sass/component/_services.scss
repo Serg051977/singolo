@@ -1,4 +1,4 @@
-#services{
+.services{
     background: #F2F2F2;
   }
   .services__wrapper{
@@ -79,7 +79,7 @@
     margin: 0;
   }
   .inf_text{
-    
+    max-height: 66px;
     margin: 10px 0 10px 20px;
     font-family: Lato;
     font-style: normal;
